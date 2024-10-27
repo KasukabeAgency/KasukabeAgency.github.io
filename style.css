@@ -326,10 +326,18 @@ home-content p{
             width: calc(100% + 8px);
         }
 }
+.typeheading{
+    font-family: 'montserrat';
+    font-weight: 40;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0%;
+}
 .heading{
+    font-family: 'montserrat';
     font-size: 8rem;
     text-align: center;
-    margin: 5rem 0;
+    margin-top: 10%;
 }
 .portfolio{
     padding: 100px 15px;
@@ -392,7 +400,7 @@ home-content p{
     border: 2px solid var(--main-color);
     padding: 20px;
     border-radius: 2rem;
-    box-shadow: 0 0 20px rgba(0, 255, 238, 0.3);
+    box-shadow: 0 0 20px var(--main-color);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
         }
@@ -421,7 +429,7 @@ home-content p{
             opacity: 1;
         }
         .timeline-content:hover video {
-            box-shadow: 0 0 25px rgba(0, 255, 238, 0.4);
+            box-shadow: 0 0 25px var(--main-color);
         }
         .timeline-content h3{
         font-size: 20px;
@@ -441,7 +449,7 @@ home-content p{
             height: auto;
             border-radius: 1rem;
             border: 2px solid var(--main-color);
-            box-shadow: 0 0 15px rgba(0, 255, 238, 0.2);
+            box-shadow: 0 0 15px var(--main-color);
             margin: 20px auto;
             display: block;
             transition: all 0.3s ease-in-out;
